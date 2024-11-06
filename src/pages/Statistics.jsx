@@ -72,7 +72,6 @@ const Statistics = () => {
         <div>
             <Helmet>
                 <title>Statistics - Gadget Heaven</title>
-                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
             </Helmet>
             <Headstat />
             <ResponsiveContainer width="100%" height={500}>

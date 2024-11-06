@@ -17,7 +17,6 @@ const ContactUs = () => {
         <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
             <Helmet>
                 <title>ContactUs | Gadget Heaven</title>
-                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
             </Helmet>
             <h1 className="text-3xl font-semibold text-center text-gray-800 mb-6">Contact Us</h1>
             {submitted ? (

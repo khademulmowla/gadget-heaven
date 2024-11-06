@@ -76,7 +76,6 @@ const Dashboard = () => {
         <div>
             <Helmet>
                 <title>Dashboard | Gadget Heaven</title>
-                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
             </Helmet>
             <div className="bg-violateBanner min-h-[100px] flex justify-center py-4">
                 <div className="text-center">

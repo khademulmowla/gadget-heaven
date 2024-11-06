@@ -10,7 +10,6 @@ const Home = () => {
         <div>
             <Helmet>
                 <title>Home | Gadget Heaven</title>
-                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
             </Helmet>
             <div className="px-4">
                 <Banner />

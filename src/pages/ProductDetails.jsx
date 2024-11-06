@@ -44,7 +44,6 @@ const ProductDetails = () => {
         <div className="relative">
             <Helmet>
                 <title>ProductDetails | Gadget Heaven</title>
-                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
             </Helmet>
             <Headbar />
             <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden w-[900px] mx-auto absolute -bottom-60 left-1/2 transform -translate-x-1/2 container">
