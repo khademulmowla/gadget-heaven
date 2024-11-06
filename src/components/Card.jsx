@@ -5,7 +5,7 @@ const Card = ({ product }) => {
     return (
 
         <div className="card card-compact bg-base-100 w-76 transition  hover:scale-105 shadow-xl rounded-xl overflow-hidden">
-            <figure>
+            <figure className="pt-4">
                 <img className="h-[160px]"
                     src={product_image}
                     alt="products" />

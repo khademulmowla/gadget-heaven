@@ -15,8 +15,8 @@ const Navbar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base font-semibold">
                         <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/">Home</NavLink>
-                        <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/statistics">Statistics</NavLink>
                         <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/dashboard">Dashboard</NavLink>
+                        <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/statistics">Statistics</NavLink>
                         <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/contact-us">Contact Us</NavLink>
                     </ul>
                 </div>
@@ -25,8 +25,8 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-8 text-base font-semibold">
                     <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/">Home</NavLink>
-                    <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/statistics">Statistics</NavLink>
                     <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/dashboard">Dashboard</NavLink>
+                    <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/statistics">Statistics</NavLink>
                     <NavLink className={({ isActive }) => `font-bold ${isActive ? 'text-accent' : 'hover:text-accent'}`} to="/contact-us">Contact Us</NavLink>
 
                 </ul>

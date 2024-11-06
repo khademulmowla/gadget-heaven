@@ -3,6 +3,7 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 import Headbar from "../components/Headbar";
 import { addToStoredCartList, addToStoredWishList, getStoredWishList } from "../utility/addToLs";
 import { toast } from "react-toastify";
+import { Helmet } from 'react-helmet-async';
 
 const ProductDetails = () => {
     const data = useLoaderData();
@@ -41,6 +42,10 @@ const ProductDetails = () => {
 
     return (
         <div className="relative">
+            <Helmet>
+                <title>ProductDetails | Gadget Heaven</title>
+                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
+            </Helmet>
             <Headbar />
             <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden w-[900px] mx-auto absolute -bottom-60 left-1/2 transform -translate-x-1/2 container">
                 <div className="md:w-1/2 h-[350px]">

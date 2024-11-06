@@ -10,12 +10,12 @@ const Banner = () => {
                         <p className="py-6">
                             Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                         </p>
-                        <Link to="/dashboard" className="btn rounded-full text-violateBanner">Shop Now</Link>
+                        <Link to="/dashboard" className="btn rounded-full text-violateBanner font-bold">Shop Now</Link>
                     </div>
                 </div>
                 <div className="absolute -bottom-60  border-2 border-white p-2 backdrop-blur-xl bg-white/30 rounded-2xl">
                     <img className='rounded-2xl lg:w-[700px] h-[350px]' src={bannerImg} alt="" />
-                    <p className='mt-10 text-center font-bold text-3xl'>Explore Cutting-Edge Gadgets</p>
+                    <p className='mt-14 text-center font-bold text-3xl'>Explore Cutting-Edge Gadgets</p>
                 </div>
             </div>
 

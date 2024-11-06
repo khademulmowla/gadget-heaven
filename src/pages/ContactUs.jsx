@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Helmet } from 'react-helmet-async';
+
 
 const ContactUs = () => {
     const [name, setName] = useState("");
@@ -13,6 +15,10 @@ const ContactUs = () => {
 
     return (
         <div className="max-w-3xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+            <Helmet>
+                <title>ContactUs | Gadget Heaven</title>
+                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
+            </Helmet>
             <h1 className="text-3xl font-semibold text-center text-gray-800 mb-6">Contact Us</h1>
             {submitted ? (
                 <div className="text-center">
@@ -60,7 +66,7 @@ const ContactUs = () => {
                     <div className="text-center">
                         <button
                             type="submit"
-                            className="mt-4 px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 disabled:bg-gray-400"
+                            className="mt-4 px-6 py-3 bg-violateBanner text-white font-semibold rounded-lg hover:bg-blue-600 disabled:bg-gray-400"
                             disabled={!name || !email || !message}
                         >
                             Submit

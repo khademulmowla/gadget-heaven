@@ -1,6 +1,10 @@
-import { Link, useLoaderData, useNavigate } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getStoredCartList, getStoredWishList, addToStoredCartList, removeFromStoredCartList, removeFromStoredWishList, clearStoredCart } from "../utility/addToLs";
+import { Helmet } from 'react-helmet-async';
+import logosuccess from '../assets/Group.png'
+
+
 
 const Dashboard = () => {
     const [cartList, setCartList] = useState([]);
@@ -8,6 +12,8 @@ const Dashboard = () => {
     const [activeTab, setActiveTab] = useState("cart");
     const [totalPrice, setTotalPrice] = useState(0);
     const [showModal, setShowModal] = useState(false);
+    const [finalModalPrice, setFinalModalPrice] = useState(0);
+
     const navigate = useNavigate();
     const allProducts = useLoaderData();
 
@@ -53,10 +59,12 @@ const Dashboard = () => {
     };
 
     const handlePurchase = () => {
+        const finalPrice = totalPrice;
         setShowModal(true);
         clearStoredCart();
         setCartList([]);
         setTotalPrice(0);
+        setFinalModalPrice(finalPrice);
     };
 
     const handleCloseModal = () => {
@@ -66,6 +74,10 @@ const Dashboard = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Dashboard | Gadget Heaven</title>
+                <meta name="description" content="View product statistics and trends on Gadget Heaven." />
+            </Helmet>
             <div className="bg-violateBanner min-h-[100px] flex justify-center py-4">
                 <div className="text-center">
                     <div className="max-w-2xl text-white">
@@ -137,10 +149,14 @@ const Dashboard = () => {
             {showModal && (
                 <div className="modal modal-open">
                     <div className="modal-box">
-                        <h2 className="text-2xl font-semibold">Congratulations!</h2>
-                        <p>Your purchase was successful.</p>
-                        <div className="modal-action">
-                            <button onClick={handleCloseModal} className="btn">Close</button>
+                        <div className="flex flex-col justify-center items-center">
+                            <img src={logosuccess} alt="" />
+                            <h2 className="text-2xl font-semibold">Payment Successfully</h2>
+                            <p>Thanks For Purchasing</p>
+                            <p>Total: ${finalModalPrice.toFixed(2)}</p>
+                            <div className="modal-action">
+                                <button onClick={handleCloseModal} className="btn">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
