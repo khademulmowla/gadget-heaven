@@ -1,0 +1,163 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "UltraBook X1",
+        "product_image": "https://i.ibb.co.com/vzR0Q08/x1.jpg",
+        "category": "Laptops",
+        "price": 1199.99,
+        "description": "A high-performance laptop with a sleek design, perfect for work and play.",
+        "Specification": [
+            "Processor: Intel Core i7",
+            "RAM: 16GB",
+            "Storage: 512GB SSD",
+            "Display: 13.3-inch Full HD"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 2,
+        "product_title": "Fitness Smart Watch",
+        "product_image": "https://i.ibb.co.com/q1vXybf/watch1.jpg",
+        "category": "Smart Watches",
+        "price": 179.99,
+        "description": "A lightweight smartwatch designed for fitness enthusiasts.",
+        "Specification": [
+            "Heart Rate Monitor",
+            "Step Counter",
+            "Water Resistant up to 50 meters",
+            "Battery Life: Up to 10 days"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 3,
+        "product_title": "Gaming Laptop G15",
+        "product_image": "https://i.ibb.co.com/v1368Xg/gaming-laptop.jpg",
+        "category": "Laptops",
+        "price": 1499.99,
+        "description": "A powerful gaming laptop designed for high performance in all your games.",
+        "Specification": [
+            "Processor: AMD Ryzen 7",
+            "Graphics: NVIDIA GeForce GTX 1660",
+            "RAM: 16GB",
+            "Storage: 1TB SSD",
+            "Display: 15.6-inch Full HD"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 4,
+        "product_title": "iPhone 14 Pro",
+        "product_image": "https://i.ibb.co.com/wQy7HcZ/apple-iphone-14-pro-3.jpg",
+        "category": "Phones",
+        "price": 1099.99,
+        "description": "The latest iPhone with an advanced camera system and powerful processor.",
+        "Specification": [
+            "Display: 6.1-inch OLED",
+            "Camera: 48MP Triple Lens",
+            "Processor: A16 Bionic",
+            "Battery: 4352mAh"
+        ],
+        "availability": false,
+        "rating": 4.9
+    },
+    {
+        "product_id": 5,
+        "product_title": "MacBook Pro 16",
+        "product_image": "https://i.ibb.co.com/5sz45Cr/macccc.jpg",
+        "category": "Laptops",
+        "price": 2499.99,
+        "description": "Apple’s high-end laptop designed for professionals.",
+        "Specification": [
+            "Processor: M1 Pro",
+            "RAM: 32GB",
+            "Storage: 1TB SSD",
+            "Display: 16-inch Retina"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 6,
+        "product_title": "Galaxy Smartphone Pro",
+        "product_image": "https://i.ibb.co.com/g67jBLh/Samsung-Galaxy-Xcover-Pro-2.jpg",
+        "category": "Phones",
+        "price": 899.99,
+        "description": "A smartphone with a stunning display, powerful camera, and all-day battery life.",
+        "Specification": [
+            "Display: 6.5-inch OLED",
+            "Camera: 108MP Triple Lens",
+            "Battery: 4500mAh",
+            "Processor: Snapdragon 888"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 7,
+        "product_title": "Aspire E15",
+        "product_image": "https://i.ibb.co.com/N65th9D/acer.jpg",
+        "category": "Laptops",
+        "price": 799.99,
+        "description": "An affordable laptop suitable for everyday use and light gaming.",
+        "Specification": [
+            "Processor: Intel Core i5",
+            "RAM: 8GB",
+            "Storage: 256GB SSD",
+            "Display: 15.6-inch Full HD"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 8,
+        "product_title": "Pro Smart Watch",
+        "product_image": "https://i.ibb.co.com/QHwxjQ6/14a995c9-994c-41f5-85c8-6a688c7b0fa2.png",
+        "category": "Smart Watches",
+        "price": 249.99,
+        "description": "A stylish smartwatch with health tracking and multiple sports modes.",
+        "Specification": [
+            "Heart Rate Monitor",
+            "GPS",
+            "Water Resistant",
+            "Battery Life: Up to 7 days"
+        ],
+        "availability": false,
+        "rating": 4.3
+    },
+    {
+        "product_id": 9,
+        "product_title": "Surface Laptop 4",
+        "product_image": "https://i.ibb.co.com/kDHrhbW/surface.jpg",
+        "category": "Laptops",
+        "price": 1599.99,
+        "description": "Microsoft's flagship laptop with a sleek design and high performance.",
+        "Specification": [
+            "Processor: AMD Ryzen 5",
+            "RAM: 16GB",
+            "Storage: 512GB SSD",
+            "Display: 13.5-inch PixelSense"
+        ],
+        "availability": false,
+        "rating": 4.7
+    },
+    {
+        "product_id": 10,
+        "product_title": "ThinkPad X1 Carbon",
+        "product_image": "https://i.ibb.co.com/nB7GwKV/thinkpad.jpg",
+        "category": "Laptops",
+        "price": 1799.99,
+        "description": "A lightweight and durable business laptop with top-notch performance.",
+        "Specification": [
+            "Processor: Intel Core i7",
+            "RAM: 16GB",
+            "Storage: 512GB SSD",
+            "Display: 14-inch FHD"
+        ],
+        "availability": true,
+        "rating": 4.9
+    }
+]
