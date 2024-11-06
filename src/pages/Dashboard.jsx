@@ -116,14 +116,14 @@ const Dashboard = () => {
                                     <h3 className="text-xl font-semibold">{product.product_title}</h3>
                                     <h4 className="text-gray-500 text-sm">{product.description}</h4>
                                     <h4 className="text-gray-700 font-semibold">Price: ${product.price}</h4>
+                                    {activeTab === "wishlist" && (
+                                        <button onClick={() => handleAddToCartFromWishlist(product.product_id)} className="btn btn-sm w-32 text-white bg-violateBanner">
+                                            Add to Cart
+                                        </button>
+                                    )}
                                 </div>
                             </div>
                             <div className="flex justify-center items-center gap-2">
-                                {activeTab === "wishlist" && (
-                                    <button onClick={() => handleAddToCartFromWishlist(product.product_id)} className="btn btn-sm btn-primary">
-                                        Add to Cart
-                                    </button>
-                                )}
                                 <button onClick={() => activeTab === "cart" ? handleDeleteFromCart(product.product_id) : handleDeleteFromWishList(product.product_id)} className="font-bold text-2xl text-red-600">
                                     <i className="fa-regular fa-circle-xmark"></i>
                                 </button>
