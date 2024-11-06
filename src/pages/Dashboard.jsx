@@ -145,7 +145,7 @@ const Dashboard = () => {
                 </ul>
             </div>
 
-            {/* Modal for Purchase Confirmation */}
+            {/* Modal */}
             {showModal && (
                 <div className="modal modal-open">
                     <div className="modal-box">

@@ -1,4 +1,3 @@
-// Utility functions to handle cart and wish list in localStorage
 
 // Cart Functions
 const getStoredCartList = () => {

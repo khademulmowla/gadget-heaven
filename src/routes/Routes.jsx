@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import Statistics from "../pages/Statistics";
@@ -41,8 +40,6 @@ const routes = createBrowserRouter([
                 path: '/dashboard',
                 element: <Dashboard />,
                 loader: () => fetch('../products.json'),
-
-
             },
             {
                 path: '/product/:product_id',
