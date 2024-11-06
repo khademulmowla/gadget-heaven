@@ -3,7 +3,7 @@ import bannerImg from '../assets/banner.jpg'
 const Banner = () => {
     return (
         <div className='relative'>
-            <div className="bg-violateBanner min-h-[500px] flex justify-center pt-2 ">
+            <div className="bg-violateBanner min-h-[500px] flex justify-center pt-2 rounded-b-xl">
                 <div className=" text-center">
                     <div className="max-w-2xl text-white">
                         <h1 className="text-4xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
